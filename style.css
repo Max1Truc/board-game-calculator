@@ -1,31 +1,50 @@
 /* Using some CSS code from https://github.com/malikolabiyi/year-of-birth */
-
 body {
-    font-size: 20px;
-    width: 50%;
-    margin: auto;
-    color: #1b1b1b;
-    text-align: center;
-    background-color: #efefef;
+  font-size: 20px;
+  width: 50%;
+  margin: auto;
+  color: #1b1b1b;
+  text-align: center;
+  background-color: #efefef;
 }
 
 p {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 h1 {
-    font-size: 2em;
+  font-size: 2em;
+}
+
+.button {
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: inherit;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
 }
 
 @media (max-width: 768px) {
-    body {
-        width: 80%;
-        margin: 50% auto;
-    }
+  body {
+    width: 80%;
+    margin: 50% auto;
+  }
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 40%;
   display: inline-block;
@@ -33,7 +52,7 @@ h1 {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .container {
@@ -67,23 +86,23 @@ div.empty {
   height: 1.9em;
   background-color: transparent;
 }
-/* End of dots */
 
+/* End of dots */
 /* To show stick in Fort Boyard's variant */
 div.stick {
-  width: 0.5em;
+  width: 0.75em;
   height: 2em;
   background-color: black;
 }
 
 div.removed {
-  border: 0.1em dotted black;
-  width: 0.4em;
+  border: 0.05em dotted black;
+  width: 0.65em;
   height: 1.9em;
   background-color: transparent;
 }
-/* End of sticks */
 
+/* End of sticks */
 .centered {
   margin: auto;
 }
